@@ -1,11 +1,8 @@
-import React from 'react'
-import Services from './Services'
-// import { NavLink } from 'react-router-dom';
-
+import React from 'react';
+import Services from './Services';
 
 const Home = () => {
     return (
-        
         <div>
             <section id="header" className="d-flex align-items-center">
                 <div className="container-fluid ">
@@ -17,9 +14,10 @@ const Home = () => {
                                         Design.Development.<br></br>Products.
                                     </h1>
                                     <h3 className="my-3">
-                                        We build new, exciting and cool digital products that change the way humans look at, and understand the world. 
+                                        We build new, exciting and cool digital
+                                        products that change the way humans look
+                                        at, and understand the world.
                                     </h3>
-                                    
                                 </div>
                             </div>
                         </div>
@@ -28,7 +26,7 @@ const Home = () => {
             </section>
             <Services />
         </div>
-    )
-}
+    );
+};
 
-export default Home
+export default Home;
